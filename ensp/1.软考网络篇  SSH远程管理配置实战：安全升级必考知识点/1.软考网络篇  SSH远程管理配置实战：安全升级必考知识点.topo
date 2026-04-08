@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UNICODE" ?>
+<topo version="1.3.00.100">
+    <devices>
+        <dev id="AF75ED45-CAEA-43fd-92B3-E7E881D991BA" name="AR1" poe="0" model="AR1220" settings="" system_mac="00-E0-FC-38-5D-15" com_port="2000" bootmode="0" cx="37.000000" cy="106.000000" edit_left="64" edit_top="160">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Ethernet" interfacename="Ethernet" count="8" />
+            </slot>
+        </dev>
+        <dev id="5A2CD62D-BA03-4840-A47C-6D9D45BAD1B2" name="AR2" poe="0" model="AR1220" settings="" system_mac="00-E0-FC-4D-17-5F" com_port="2001" bootmode="0" cx="209.000000" cy="103.000000" edit_left="236" edit_top="157">
+            <slot number="slot17" isMainBoard="1">
+                <interface sztype="Ethernet" interfacename="GE" count="2" />
+                <interface sztype="Ethernet" interfacename="Ethernet" count="8" />
+            </slot>
+        </dev>
+    </devices>
+    <lines>
+        <line srcDeviceID="AF75ED45-CAEA-43fd-92B3-E7E881D991BA" destDeviceID="5A2CD62D-BA03-4840-A47C-6D9D45BAD1B2">
+            <interfacePair lineName="Copper" srcIndex="0" srcBoundRectIsMoved="1" srcBoundRect_X="107.177200" srcBoundRect_Y="132.246902" srcOffset_X="-9.000000" srcOffset_Y="15.000000" tarIndex="0" tarBoundRectIsMoved="1" tarBoundRect_X="192.822800" tarBoundRect_Y="130.753098" tarOffset_X="-21.000000" tarOffset_Y="13.000000" />
+        </line>
+    </lines>
+    <shapes />
+    <txttips />
+</topo>
